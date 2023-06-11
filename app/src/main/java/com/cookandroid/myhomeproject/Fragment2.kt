@@ -1,4 +1,5 @@
 package com.cookandroid.myhomeproject
+
 class Fragment2 : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -6,6 +7,6 @@ class Fragment2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         super.onCreateView(inflater, container, savedInstanceState)
-        return inflater.inflate(R.layout.frag_ment1, container, false)
+        return inflater.inflate(R.layout.frag_ment2, container, false)
     }
 }
